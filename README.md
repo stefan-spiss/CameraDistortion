@@ -14,11 +14,11 @@ Explanations about radial and tangential distortion can be found in [[1]](#1).
 
 This camera model implements the angular distortion as it is used in the fisheye models available in the [Matlab camera calibration tool box by Bouguet](http://www.vision.caltech.edu/bouguetj/calib_doc/) and in [OpenCV](https://docs.opencv.org/4.5.2/db/d58/group__calib3d__fisheye.html).
 
-A equidistant projection model and a fisheye distortion similar to the one proposed in [[2]](#2) is applied. The equidistant projection is given by equation (3) in [[2]](#2) and the fisheye distortion follows equation (6) in the same work with k1=1 (already captured by focal distance f).
+A equidistant projection model and a fisheye distortion similar to the one proposed in [[2]](#2) is applied. The equidistant projection is given by equation (3) in [[2]](#2) and the fisheye distortion follows equation (6) in the same work with k1=1 (k1 already captured by focal distance f).
 
 ### Omnidirectional Mei Rives Distortion
 
-This camera model is the same as implemented in the omnidirectional camera model in [OpenCV](https://docs.opencv.org/4.5.2/d3/ddc/group__ccalib.html) and was introduced in [[3]](#3). 
+This camera model is the same as implemented in the omnidirectional camera model in [OpenCV](https://docs.opencv.org/4.5.2/d3/ddc/group__ccalib.html). It was introduced in [[3]](#3). 
 
 ## Building and Running
 
